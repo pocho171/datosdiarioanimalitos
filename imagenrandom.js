@@ -7,10 +7,10 @@ return this;
 }
 var i;
 function imagealeatoire() {
-i = Math.floor(3 * Math.random() + 1);
+i = Math.floor(36 * Math.random() + 1);
 return image[i];
 }
-image = new makeArray(3);
+image = new makeArray(36);
 image[1]="https://lh3.googleusercontent.com/IdWRfeUnbKbHy73GjO-KItAs-1-g26QKmad4zJCStNuI0hqq4ZT88OtZ5_ZcEwBO_d3ULTrnPZBLAzoNwA=w234-h215-rw";
 image[2]="https://lh3.googleusercontent.com/gVIjiaj8ROL7ysLi0oOurwZvHeuMbz1tsqDPAEzGOwvfRnMKC-CnoVENBzekZMlBLeVckSQ-66ERmlNGPQ=w240-h220-rw";
 image[3]="https://lh3.googleusercontent.com/fbSaWM6vG5F6hDy2ybLLTg_4q3kFenCqHJyRoCF8eYdrkBzE_W392PFqj0XkMelcHqj0ax4J4AgP3gXwaA=w240-h220-rw";
